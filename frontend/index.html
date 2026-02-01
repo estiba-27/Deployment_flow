@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deployment Approval Workflow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Deployment Approval Workflow</h1>
+
+  <div>
+    <input type="text" id="deployment-name" placeholder="Deployment Name">
+    <button id="create-btn">Create Deployment</button>
+  </div>
+
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>State</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="deployments-body">
+      <!-- Filled dynamically -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

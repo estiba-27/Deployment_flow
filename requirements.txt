@@ -1,0 +1,9 @@
+sqlalchemy 
+aiosqlite 
+python-dotenv
+fastapi 
+uvicorn
+aiosqlite 
+pydantic
+transitions 
+
