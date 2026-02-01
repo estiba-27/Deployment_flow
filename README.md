@@ -28,36 +28,6 @@ The system exposes REST APIs and a lightweight frontend to manage and visualize 
 | API Docs  | Swagger (FastAPI `/docs`) |
 
 ---
-
-## Project Structure
-.
-├── README.md
-├── backend
-│   ├── Dockerfile
-│   ├── __pycache__
-│   ├── create_db.py
-│   ├── database.py
-│   ├── deployments.db
-│   ├── main.py
-│   ├── models.py
-│   ├── state_machine.py
-│   └── test_sm.py
-├── docker-compose.yml
-├── frontend
-│   ├── Dockerfile
-│   ├── index.html
-│   ├── script.js
-│   └── style.css
-├── requirements.txt
-└── venv
-    ├── bin
-    ├── include
-    ├── lib
-    ├── lib64 -> lib
-    └── pyvenv.cfg
-
----
-
 ## Setup Instructions
 
 ---
